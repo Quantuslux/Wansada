@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="header">
+        <a href="../index.html"><img src="../img/wansadaLogo.png" class="logo" alt="Wansada logo"></a>
+        <div>
+            <ul id="navbar">
+               <li><a  href="../index.html">Home</a></li> 
+               <li><a class="active" href="#">Book</a></li> 
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="../pages/book.html"><i class="fa-solid fa-calendar-days"></i></a> 
+        </div>
+        </nav>
+    <section id="booking">
+        <div class="wrapper">
+            <header>Book Now</header>
+            <form action="#">
+                <div class="dbl-field">
+                    <div class="field">
+                        <input type="text" name="name" placeholder="Enter your Name" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="phone" placeholder="Enter your Phone Number" required>
+                        <i class="fas fa-mobile"></i>
+                    </div>
+                </div>
+                <div class="dbl-field">
+                    <div class="field">
+                        <input type="text" name="email" placeholder="Enter your Email" required>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="field">
+                        <i class="fa-solid fa-list"></i>
+                        <select name="facial-type" class="select" required >
+                            <option value="">Select a facial type </option>
+                            <option value="Hydrating Facial">Hydrating Facial</option>
+                            <option value="Deep Cleansing Facial">Deep Cleansing Facial</option>
+                            <option value="Anti-Aging Facial">Anti-Aging Facial</option>
+                            <option value="Acne Treatment Facial">Acne Treatment Facial</option>
+                            <option value="Brightening Facial">Brightening Facial</option>
+                            <option value="Sensitive Skin Facial">Sensitive Skin Facial</option>
+                            <option value="Exfoliating Facial">Exfoliating Facial</option>
+                            <option value="Relaxing Facial">Relaxing Facial</option>
+                            <option value="Oxygen Facial">Oxygen Facial</option>
+                            <option value="Microdermabrasion Facial">Microdermabrasion Facial</option>
+                        </select> 
+                    </div>
+                </div>
+                <div class="dbl-field"> 
+                    <div class="field">
+                        <input placeholder="Type Date" type="text" onfocus="(this.type = 'date')"  id="date" required>
+                        <i class="fa-sharp fa-regular fa-calendar-days"></i>
+                    </div>
+                    <div class="field">
+                        <select name="facial-type" class="select" required >
+                            <option value="">Select the time</option>
+                            <option value="10am">10:00 AM</option>
+                            <option value="11am">11:00 Am</option>
+                            <option value="12pm">12:00 PM</option>
+                            <option value="1pm">1:00 PM</option>
+                            <option value="2pm">2:00 PM</option>
+                            <option value="3pm">3:00 PM</option>
+                            <option value="4pm">4:00 PM</option>
+                            <option value="5pm">5:00 PM</option>
+                            <option value="6pm">6:00 PM</option>
+                            <option value="7pm">7:00 PM</option>
+                        </select>
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                </div>
+                <div class="message">
+                    <i class="fa-regular fa-comment"></i>
+                    <textarea placeholder="Enter your skin concerns if any" name="skin-concerns" ></textarea>
+                </div>
+                <div class="button-area">
+                    <button type="button">Reset</button>
+                    <button type="button">Submit</button>
+                </div> 
+            </form>
+        </div>
+    </section>
+    <footer class="section-p1">
+
+        <div class="col">
+            <img src="../img/wansadaLogo.png" alt="" width="100">
+        </div>
+
+        <div class="col">
+            <h4>contact</h4>
+            <p><strong>email: </strong> wansadaemail</p>
+            <p><strong>phone: </strong> wansada phone</p>
+            <div class="follow">
+                <h4>follow me and Review me</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/"  target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>References</h4>
+            <a href="#">website 1</a>
+            <a href="#">website 2</a>
+            <a href="#">website3</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="copyright">
+            <p>2023 quantuslux Lorem ipsum, dolor sit amet consectetur adipisicing. </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
