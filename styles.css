@@ -75,8 +75,8 @@
     height: 70vh;
     width: 100%;
     background-size: cover;
-    background-position: top 20% right 0;
-    padding: 0 80px;
+    background-position: top 40% right 0;
+    padding: 0 60px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -348,7 +348,7 @@ footer .copyright{
     top: 0;
     right: -100%;
     position: absolute;
-    background: rgba(156, 77, 80, 0.549);
+    background: rgba(156, 77, 80, 0.689);
     backdrop-filter: blur(5px);
     color: #000000;
     padding: 20px;
@@ -395,25 +395,34 @@ footer .copyright{
     justify-content: center;
     margin: 20px;
   }
-  
-  table {
+
+
+table {
     border-collapse: collapse;
     width: 100%;
     max-width: 400px;
-    background-color: #f9e6e6;
-    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.2);
-    margin: 10px;
+    /* background-color: #f9e6e6; */
+    margin: 30px;
+    box-shadow: 0 10px 10px rgb(156, 77, 79);
+    border-radius: 20px;
+    
   }
+
   
   th {
-    background-color: #ffcccc;
+    /* background-color: #ffcccc; */
     padding: 20px;
     text-align: left;
+    font-size: 17px;
   }
   
   td {
     padding: 20px;
   }
+  td a {
+    display: grid;  
+    place-items: center;
+}
 
   .boton{
     display: grid;
@@ -591,6 +600,10 @@ form .button-area{
         color: rgb(0, 0, 0);
         font-size: 50px;
         padding-left: 20px;
+    }
+    #hero{
+        background-position: top 40% right 50%;
+        padding: 0 20px;
 
     }
     .intro{
@@ -603,8 +616,8 @@ form .button-area{
 
 
     .card{
-        width: 380px;
-        height: 180px;
+        width: 325px;
+        height: 190px;
     }
     
  
